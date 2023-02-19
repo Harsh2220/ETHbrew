@@ -21,7 +21,7 @@ export default function SplitScreen() {
 
   return (
     <Box
-      bgGradient="radial-gradient(circle at 20% 20%, #c888fdda, rgba(76, 0, 255, 0), rgba(76, 0, 255, 0), #c888fdda, rgba(76, 0, 255, 0))"
+      bgGradient="radial-gradient(circle at 20% 20%, #7B3FE4, rgba(76, 0, 255, 0), rgba(76, 0, 255, 0), rgba(76, 0, 255, 0))"
       opacity={1}
       className="blurBg"
     >
@@ -58,7 +58,7 @@ export default function SplitScreen() {
                     .eth domain
                   </Text>
                 </Heading>
-                <Text color={"gray.400"} maxW={"sm"}>
+                <Text color={"gray.600"} maxW={"sm"}>
                   Mint your own .eth domain and start receiving donations in
                   matic, the native token of Polygon. You can mint your own .eth
                   domain with minimal fees.

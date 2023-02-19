@@ -82,7 +82,7 @@ const App = () => {
 
   return (
     <Box
-      bgGradient="radial-gradient(circle at 20% 20%, #c888fdda, rgba(76, 0, 255, 0), rgba(76, 0, 255, 0), #c888fdda, rgba(76, 0, 255, 0))"
+      bgGradient="radial-gradient(circle at 20% 20%, #7B3FE4, rgba(76, 0, 255, 0), rgba(76, 0, 255, 0), rgba(76, 0, 255, 0))"
       opacity={1}
       className="blurBg"
     >
@@ -108,7 +108,7 @@ const App = () => {
             pr={{ base: 0, lg: 16 }}
             mb={6}
             fontSize="xl"
-            color="gray.400"
+            color="gray.700"
             letterSpacing="wider"
           >
             ENS (Ethereum Name Service) is a decentralized, open-source system

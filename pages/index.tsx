@@ -48,7 +48,7 @@ export default function LandingPage() {
 
   return (
     <Box
-      bgGradient="radial-gradient(circle at 20% 20%, #c888fdda, rgba(76, 0, 255, 0), rgba(76, 0, 255, 0), #c888fdda, rgba(76, 0, 255, 0))"
+      bgGradient="radial-gradient(circle at 20% 20%, #7B3FE4, rgba(76, 0, 255, 0), rgba(76, 0, 255, 0), rgba(76, 0, 255, 0))"
       opacity={1}
       className="blurBg"
     >
@@ -58,7 +58,7 @@ export default function LandingPage() {
           rel="stylesheet"
         />
         <title>Poly Funds</title>
-        <meta property="og:title" content="Poly Funds" key="title" />
+        <meta property="og:title" content="ETHbrew" key="title" />
       </Head>
       <NavBar />
       <Container maxW={"3xl"} marginBottom={9}>
@@ -72,7 +72,7 @@ export default function LandingPage() {
             fontWeight={600}
             fontSize={{ base: "xl", sm: "3xl", md: "5xl" }}
             lineHeight={"110%"}
-            color={"gray.200"}
+            color={"gray.700"}
           >
             Create your{" "}
             <Text
@@ -102,7 +102,7 @@ export default function LandingPage() {
               MATIC
             </Text>
           </Heading>
-          <Text color={"gray.400"} fontSize="xl">
+          <Text color={"gray.600"} fontSize="xl">
             Just for you! Built your on-chain profile & list the SM links to
             present your identity. VOILA! Get matic directly to your wallet by
             your audience. <br />
@@ -173,7 +173,7 @@ export default function LandingPage() {
               <Text fontWeight={700} fontSize={"2xl"} color={"#a13bf7"}>
                 Open Source
               </Text>
-              <Text color={"gray.400"} fontWeight={500}>
+              <Text color={"gray.600"} fontWeight={500}>
                 We welcome all the contributors, add your profile link with work
                 and incentivize the project with a larger audience at ZERO fees.{" "}
               </Text>
@@ -195,7 +195,7 @@ export default function LandingPage() {
               <Text fontWeight={700} fontSize={"2xl"} color={"#a13bf7"}>
                 Total decentralised{" "}
               </Text>
-              <Text color={"gray.400"} fontWeight={500}>
+              <Text color={"gray.600"} fontWeight={500}>
                 Be relaxed, we got you! Hassleless transactions on L2
                 Blockchain, just send your wishes instantly with few MATIC.
               </Text>
@@ -217,7 +217,7 @@ export default function LandingPage() {
               <Text fontWeight={700} fontSize={"2xl"} color={"#a13bf7"}>
                 Secure{" "}
               </Text>
-              <Text color={"gray.400"} fontWeight={500}>
+              <Text color={"gray.600"} fontWeight={500}>
                 All your personal data will be on-chain stored inside a smart
                 contract in a secure manner.{" "}
               </Text>
