@@ -90,7 +90,7 @@ export const MultiStepForm = () => {
               );
               const signer = provider.getSigner();
               const contract = new ethers.Contract(
-                "0x3B79b994F08f8e3fBDddc90FEdc49EFB07af4c71",
+                "0x957241D8B3d9cCDb47099fe859cB3722327d2278",
                 contractAbi,
                 signer
               );
